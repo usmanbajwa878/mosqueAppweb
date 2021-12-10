@@ -40,6 +40,7 @@ input{
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('./images/background.png');
+  
 }
 nav{
 display: flex;
@@ -50,13 +51,13 @@ left: 0;
 top: 0;
 width:100%;
 z-index: 1;
-  background-color: #ffffff;
+  background-color: transparent;
   transition: 0.6s ease-in-out;
   cursor: pointer;
 }
 nav.active{
 box-shadow: 5px 10px 30px rgba(0, 247, 255, 0.157);
-background-color: #ffffff;
+background-color: transparent;
 }
 nav ul{
 display: flex;
@@ -68,7 +69,8 @@ box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411);
 transition: all ease 0.2s;
 }
 nav ul li a{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: large;
 height:40px;
 line-height: 43px;
 margin: 3px;
